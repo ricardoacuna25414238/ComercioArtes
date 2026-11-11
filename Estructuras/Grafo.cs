@@ -3,8 +3,6 @@ using System.Collections.Generic;
 namespace ComercioArtes.Estructuras
 {
     // Grafo no dirigido con lista de adyacencia.
-    // Cada nodo tiene una clave (por ejemplo "A1" para el artista 1,
-    // "O3" para la obra 3 y "G2" para la galeria 2) y un nombre para mostrar.
     // En NicaArt relaciona artistas, obras y galerias.
     public class Grafo
     {
