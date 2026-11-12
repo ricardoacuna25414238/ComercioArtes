@@ -1,6 +1,6 @@
 namespace ComercioArtes.Models
 {
-
+    public class Artista : Persona
     {
         public string Pais { get; set; }
         public string Biografia { get; set; }
