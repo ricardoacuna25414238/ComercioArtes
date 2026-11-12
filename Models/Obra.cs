@@ -1,7 +1,9 @@
 namespace ComercioArtes.Models
 {
+    // Clase Obra, representa una obra de arte
     public class Obra
     {
+        // Datos de la obra
         public int Id { get; set; }
         public string Titulo { get; set; }
         public string Descripcion { get; set; }
@@ -9,8 +11,8 @@ namespace ComercioArtes.Models
         public string Dimensiones { get; set; }
         public int Anio { get; set; }
         public decimal Precio { get; set; }
-        public EstadoObra Estado { get; set; }
-        public int IdArtista { get; set; }
+        public EstadoObra Estado { get; set; }         // si está disponible, vendida, etc
+        public int IdArtista { get; set; }     // artista que la creó
 
         public Obra()
         {
@@ -20,6 +22,7 @@ namespace ComercioArtes.Models
             Estado = EstadoObra.Disponible;
         }
 
+        // Constructor con todos los datos de la obra
         public Obra(int id, string titulo, string descripcion, TecnicaObra tecnica,
                     string dimensiones, int anio, decimal precio, int idArtista)
         {
