@@ -21,7 +21,7 @@ namespace ComercioArtes.Forms
             CrearBotonReportes();
             AplicarRol();
 
-            // Activar Dashboard al iniciar
+            // 
             btnNavDashboard.PerformClick();
         }
 
