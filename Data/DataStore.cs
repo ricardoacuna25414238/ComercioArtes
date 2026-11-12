@@ -4,10 +4,10 @@ using ComercioArtes.Models;
 
 namespace ComercioArtes.Data
 {
-    /// <summary>
+
     /// Repositorio central de datos en memoria.
-    /// Patrón Singleton: solo existe una instancia en toda la aplicación.
-    /// </summary>
+    /// Solo existe una instancia en toda la aplicación.
+    
     public sealed class DataStore
     {
         private static readonly DataStore _instancia = new DataStore();
