@@ -20,11 +20,12 @@ namespace ComercioArtes.Forms
             CrearBotonEstructuras();
             CrearBotonReportes();
             AplicarRol();
-            // Activar Dashboard al iniciar
+
+            // 
             btnNavDashboard.PerformClick();
         }
 
-        // ── Navegación ────────────────────────────────────────────
+        // ──  ────────────────────────────────────────────
         private void btnNavDashboard_Click(object sender, EventArgs e)
         {
             MarcarActivo(btnNavDashboard);
