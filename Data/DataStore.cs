@@ -57,14 +57,7 @@ namespace ComercioArtes.Data
             Artistas.Add(new Artista(SiguienteIdArtista(), "Sofía Herrera",
                 "sofia@arte.co", "+57 300 555 6666",
                 "Nicaragua", "Fotógrafa documental y artística, enfoque en cultura andina.",
-                "Ganadora del concurso Iberoamericano de Fotografía 2022."));
-
-            Artistas.Add(new Artista(SiguienteIdArtista(), "Tomás Aguirre",
-                "tomas@arte.ar", "+54 11 7777 8888",
-                "Argentina", "Artista digital y grabador. Mezcla técnicas tradicionales con lo digital.",
-                "Cofundador del colectivo PixelArte Buenos Aires."));
-
-            // ── Obras ─────────────────────────────────────────────
+// — Obras ——————————————————————————————————————————
             Obras.Add(new Obra(SiguienteIdObra(), "Raíces del Sur",
                 "Óleo sobre lienzo, colores vibrantes que evocan la pampa.",
                 TecnicaObra.Oleo, "120 x 90 cm", 2020, 3800m, 1));
@@ -95,7 +88,6 @@ namespace ComercioArtes.Data
 
             // La obra 3 se marca como Vendida para el demo de factura
             Obras[2].Estado = EstadoObra.Vendida;
-
             // ── Galerías ──────────────────────────────────────────
             Galerias.Add(new Galeria(SiguienteIdGaleria(), "Galería Meridian",
                 "Espacio de arte contemporáneo y vanguardista.",
