@@ -11,9 +11,9 @@ namespace ComercioArtes.Models
 
         public DetalleFactura(int id, int idFactura, int idObra, decimal precioVenta)
         {
-            Id          = id;
-            IdFactura   = idFactura;
-            IdObra      = idObra;
+            Id = id;
+            IdFactura = idFactura;
+            IdObra = idObra;
             PrecioVenta = precioVenta;
         }
     }
