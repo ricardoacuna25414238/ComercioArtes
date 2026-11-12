@@ -1,9 +1,7 @@
 namespace ComercioArtes.Models
 {
-    /// <summary>
     /// Clase base abstracta que representa a cualquier persona en el sistema.
     /// Principio OOP: Herencia + Abstracción.
-    /// </summary>
     public abstract class Persona
     {
         public int Id { get; set; }
